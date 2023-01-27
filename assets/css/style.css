@@ -71,7 +71,7 @@ form {
 }
 
 .heroSection {
-  background-image: url(/assets/images/hero.JPG);
+  background-image: url("assets/images/hero.JPG");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
