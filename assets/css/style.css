@@ -71,11 +71,7 @@ form {
 }
 
 .heroSection {
-<<<<<<< HEAD
-  background-image: url('./assets/images/hero.JPG');
-=======
-  background-image: url('assets/images/hero.JPG');
->>>>>>> fdb3a5ac03e5ebb946a49cefad145e572dd92016
+  background-image: url('/Week2/Portfolio-CSS-Challenge/assets/images/hero.JPG');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
