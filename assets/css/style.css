@@ -71,7 +71,11 @@ form {
 }
 
 .heroSection {
+<<<<<<< HEAD
   background-image: url('./assets/images/hero.JPG');
+=======
+  background-image: url('assets/images/hero.JPG');
+>>>>>>> fdb3a5ac03e5ebb946a49cefad145e572dd92016
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -171,7 +175,7 @@ h3 {
 
 #project3 {
   grid-column: 1/3;
-  background-image: url('/Week2/Portfolio-CSS-Challenge/assets/images/CityWonderer.jpg');
+  background-image: url('/Week2/Portfolio-CSS-Challenge/assets/images/CityWonderer.JPG');
   height: 500px;
 }
 
