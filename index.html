@@ -12,31 +12,26 @@
     <!-- The header section which contains logo and nav links -->
     <header>
       <h1>My Portfolio</h1>
+
       <nav>
         <a href="#about">About</a>
         <a href="#work">Work </a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <div id="searchForm">
+      <form>
         <input id='searchText' type="text" placeholder="  Search">
-        <input id='searchBtn' type="button" value="Search">
-      </div>
+        <input id='searchBtn' type="button" onmouseover="" value="Search">
+      </form>
 
     </header>
 
     <!-- hero section where a big photo will cover background -->
-    <section class="heroSection">
-      <div>
-        <img src="/Week2/Portfolio-CSS-Challenge/assets/images/hero.jpg" alt="Photo about web development">
-        
-      </div>      
-    </section>
-    
-    
-    
+    <section id="heroSection" class="heroSection">     
+      
+    </section>  
 
-    <main id='main' class="mainWrapper">
+    <main id='main' class="main">
 
       <div class="container">
         <!-- aside section -->
@@ -61,42 +56,31 @@
         </section>
       </div>
 
-      <div class="container">
+      <div id="container2" class="container">      
         <!-- aside section -->
         <aside>
           <h2>My Work</h2>
         </aside>
          <!-- My Work -->
-        <section class="content container" id="work">
-          <h2>My Work</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatum eligendi minus provident voluptas ratione, quo esse unde expedita harum dolore. Unde architecto itaque quisquam autem, facere rerum ipsa! Quo!
-            Nam quaerat sequi reprehenderit itaque numquam unde ut veniam sed repudiandae facere! Libero consectetur maxime qui alias dolorum ad amet ducimus expedita id vitae nobis illum modi quisquam, explicabo consequuntur.
-            Aliquid molestias voluptatibus, dolorum quod aut, quia repudiandae eos a nobis blanditiis soluta rerum aliquam quaerat aperiam, illo itaque? Itaque vero nobis rem dignissimos hic reprehenderit cumque libero ab veritatis.
-            Ipsum, blanditiis aperiam id placeat accusantium exercitationem architecto in aliquam consequuntur quasi, a ut, voluptatem dolores omnis expedita perferendis. Ipsam architecto amet iusto pariatur libero in distinctio laudantium omnis. Perspiciatis.
-            Facere id dolorem, tempore nobis animi possimus repellendus, commodi beatae, tempora inventore consequuntur! Itaque, voluptatum a sed quibusdam repudiandae, ipsa eaque natus tempora, eveniet dolores error ullam molestiae ipsum eius.
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatum eligendi minus provident voluptas ratione, quo esse unde expedita harum dolore. Unde architecto itaque quisquam autem, facere rerum ipsa! Quo!
-            Nam quaerat sequi reprehenderit itaque numquam unde ut veniam sed repudiandae facere! Libero consectetur maxime qui alias dolorum ad amet ducimus expedita id vitae nobis illum modi quisquam, explicabo consequuntur.
-            Aliquid molestias voluptatibus, dolorum quod aut, quia repudiandae eos a nobis blanditiis soluta rerum aliquam quaerat aperiam, illo itaque? Itaque vero nobis rem dignissimos hic reprehenderit cumque libero ab veritatis.
-            Ipsum, blanditiis aperiam id placeat accusantium exercitationem architecto in aliquam consequuntur quasi, a ut, voluptatem dolores omnis expedita perferendis. Ipsam architecto amet iusto pariatur libero in distinctio laudantium omnis. Perspiciatis.
-            Facere id dolorem, tempore nobis animi possimus repellendus, commodi beatae, tempora inventore consequuntur! Itaque, voluptatum a sed quibusdam repudiandae, ipsa eaque natus tempora, eveniet dolores error ullam molestiae ipsum eius.
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatum eligendi minus provident voluptas ratione, quo esse unde expedita harum dolore. Unde architecto itaque quisquam autem, facere rerum ipsa! Quo!
-            Nam quaerat sequi reprehenderit itaque numquam unde ut veniam sed repudiandae facere! Libero consectetur maxime qui alias dolorum ad amet ducimus expedita id vitae nobis illum modi quisquam, explicabo consequuntur.
-            Aliquid molestias voluptatibus, dolorum quod aut, quia repudiandae eos a nobis blanditiis soluta rerum aliquam quaerat aperiam, illo itaque? Itaque vero nobis rem dignissimos hic reprehenderit cumque libero ab veritatis.
-            Ipsum, blanditiis aperiam id placeat accusantium exercitationem architecto in aliquam consequuntur quasi, a ut, voluptatem dolores omnis expedita perferendis. Ipsam architecto amet iusto pariatur libero in distinctio laudantium omnis. Perspiciatis.
-            Facere id dolorem, tempore nobis animi possimus repellendus, commodi beatae, tempora inventore consequuntur! Itaque, voluptatum a sed quibusdam repudiandae, ipsa eaque natus tempora, eveniet dolores error ullam molestiae ipsum eius.
-          </p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatum eligendi minus provident voluptas ratione, quo esse unde expedita harum dolore. Unde architecto itaque quisquam autem, facere rerum ipsa! Quo!
-            Nam quaerat sequi reprehenderit itaque numquam unde ut veniam sed repudiandae facere! Libero consectetur maxime qui alias dolorum ad amet ducimus expedita id vitae nobis illum modi quisquam, explicabo consequuntur.
-            Aliquid molestias voluptatibus, dolorum quod aut, quia repudiandae eos a nobis blanditiis soluta rerum aliquam quaerat aperiam, illo itaque? Itaque vero nobis rem dignissimos hic reprehenderit cumque libero ab veritatis.
-            Ipsum, blanditiis aperiam id placeat accusantium exercitationem architecto in aliquam consequuntur quasi, a ut, voluptatem dolores omnis expedita perferendis. Ipsam architecto amet iusto pariatur libero in distinctio laudantium omnis. Perspiciatis.
-            Facere id dolorem, tempore nobis animi possimus repellendus, commodi beatae, tempora inventore consequuntur! Itaque, voluptatum a sed quibusdam repudiandae, ipsa eaque natus tempora, eveniet dolores error ullam molestiae ipsum eius.
-            </p>
+        <section class="content" id="work">
+          <div class="projects">
+            <div id="project1" class="project">
+              <h3>Project 1</h3>
+            </div>
+            <div id="project2" class="project">
+              <h3>Project 2</h3>
+            </div>
+            <div id="project3" class="project">
+              <h3>Project 3</h3>
+            </div>
+            <div id="project4" class="project">
+              <h3>Project 4</h3>
+            </div>
+          </div>
         </section>
       </div>
 
-      <div class="container">
+      <div id="container3" class="container">
         <!-- aside section -->
         <aside>
           <h3>Contact Me</h3>
