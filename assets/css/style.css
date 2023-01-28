@@ -47,8 +47,11 @@ nav a {
   border: 3px green solid;
   border-radius: 10px;
   text-align: center;
+}
 
-} 
+nav a:hover {
+  background-color: rgb(55, 179, 187);
+}
 
 form {
   display: flex;
