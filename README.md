@@ -3,7 +3,13 @@
 
 ## Description
 This is my first portfolio project using html and css.
-I will add to his portfolio as I learn new technologies and skills. 
+I will add to his portfolio as I learn new technologies and skills.
+
+
+Here are a couple of screenshots from the project:
+![screenshot](/Week2/Portfolio-CSS-Challenge/assets/images/Capture.JPG)
+
+![screenshot](/Week2/Portfolio-CSS-Challenge/assets/images/Capture2.JPG)
 
 ## Usage
 Please click the link to go to [deployed page](https://onderguler35.github.io/Portfolio-CSS-Challenge/)   
