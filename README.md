@@ -6,7 +6,7 @@ This is my first portfolio project using html and css.
 I will add to his portfolio as I learn new technologies and skills. 
 
 ## Usage
-Please click the link to go to [Github Page](https://onderguler35.github.io/Portfolio-CSS-Challenge/)   
+Please click the link to go to [deployed page](https://onderguler35.github.io/Portfolio-CSS-Challenge/)   
 To check my other development projects please visit my [Github](https://github.com/onderguler35)   
 If you would like to contact me please do not hesitate to [send and email](mailto:onder5@hotmail.com)  
 
